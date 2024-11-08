@@ -1,0 +1,15 @@
+{
+  "name": "image-converter",
+  "version": "1.0.0",
+  "description": "Convert PNG and JPG images to optimized WebP format",
+  "main": "image-converter.js",
+  "scripts": {
+    "start": "node image-converter.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.2",
+    "yargs": "^17.7.2",
+    "glob": "^10.3.10",
+    "svgo": "^3.2.0"
+  }
+}
